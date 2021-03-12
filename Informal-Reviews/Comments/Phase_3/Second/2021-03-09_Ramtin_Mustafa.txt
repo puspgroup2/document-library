@@ -1,0 +1,76 @@
+TimeReportBean.java
+Rad 20 userName eller username?
+I userBean användes userName
+
+I TimeReportBean har ni använt attributen username med litet n
+i UserBean klassen har ni istället stort n
+TimeReportBean.java rad 148 getUsername()
+
+UserBean.java rad 62 getUserName()
+UserBean.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 10 måste ändras enligt ovan
+
+TimeReportManagementBean.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 14 måste ändras enligt ovan
+
+UserManagmentBean.java 
+rad 12 får man kommentera så? Ska det inte vara ovanför
+
+
+Database.java
+rad 73 Återigen userName eller username
+Ni använder variablen userName i vissa metoder och username i andra
+var konsistenta
+
+rad 527 ska vara totalMinutes
+rad 693 förtydliga kommentaren
+
+MailHandler.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 12, 13 måste ändras enligt ovan
+
+återigen på t.ex rad 31 har ni username med litet n, var konsistent i alla klasser
+
+All public classes and public and protected functions within public classes should 
+be documented using the Java documentation (javadoc) conventions.
+rad 53 måste göras enligt ovan
+
+PasswordHandler.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 14 enligt ovan
+
+AdministrationServlet.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 23 enligt ovan
+
+ändra variablen username så den är konsistent med alla andra klasser
+
+LogIn.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 32, enligt ovan
+
+LogOut.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 20, enligt ovan
+PasswordChangerServlet.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 18, enligt ovan
+
+
+ServletBase.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 31, enligt ovan
+
+TimeReportManagementServlet.java
+Names representing constants (final variables) must be all uppercase using underscore to separate words.
+rad 23, enligt ovan
+
+TimeReportServlet.java
+rad 54-60 Ska kommentarerna skrivas så?
+Saknar javadoc rad 105, 125 och 145
+Fixa så alla public har ordentlig javadoc
+
+
+
