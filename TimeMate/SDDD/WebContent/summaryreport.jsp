@@ -229,7 +229,7 @@
     (data) => {
       if (data == 'ok') {
         // Reload the page.
-        location.href = "/TimeReportServlet";
+        location.href = "/SDDD/TimeReportServlet";
         //location.reload();
       }
     });
@@ -281,7 +281,7 @@
       (response) => {
         if (response == 'ok') {
           // Reload the page.
-          location.href = "updatereport.jsp";
+          location.href = "/SDDD/updatereport.jsp";
         }
       });
     });
@@ -298,7 +298,7 @@
       (response) => {
         if (response == 'ok') {
           // Reload the page.
-          location.href = "updatereport.jsp";
+          location.href = "/SDDD/updatereport.jsp";
         }
       });
     });

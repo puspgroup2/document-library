@@ -174,7 +174,7 @@
       if (data == 'ok') {
         // Reload the page.
         
-        location.href = "/TimeReportManagementServlet";
+        location.href = "/SDDD/TimeReportManagementServlet";
         //location.reload();
       }
     });
